@@ -1,0 +1,23 @@
+{
+  "name": "lofi-radio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "devStart": "nodemon ."
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "fluent-ffmpeg": "^2.1.2",
+    "music-metadata": "^7.8.1",
+    "nodemon": "^2.0.7",
+    "openradio": "^1.4.2",
+    "radio-stream": "^0.0.1"
+  },
+  "author": "Francisco Santos",
+  "license": "MIT"
+}
