@@ -6,4 +6,4 @@ pipelines:
       - name: Install ffmpeg
         command: npm install @ffmpeg-installer/ffmpeg
       - name: Start project
-        command: npm start
+        command: node .
