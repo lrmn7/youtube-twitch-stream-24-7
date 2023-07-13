@@ -1,0 +1,9 @@
+pipelines:
+  - name: npm-start
+    commands:
+      - name: Install dependencies
+        command: npm install
+      - name: Install ffmpeg
+        command: npm install @ffmpeg-installer/ffmpeg
+      - name: Start project
+        command: npm start
